@@ -59,7 +59,7 @@ class Game:
         elif level == FLAG_MENU:
             self.level = FlagMenuLevel()
         elif level == GAME:
-            self.level = 
+            self.level = GameLevel ()
 
 
 if __name__ == "__main__":
